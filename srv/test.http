@@ -1,1 +1,10 @@
-GET http://localhost:4004/odata/v4/product/printhelloworld(input='Hello')
+#GET http://localhost:4004/odata/v4/product/printhelloworld(input='Hello')
+
+
+#GET http://localhost:4004/odata/v4/product/addition(num1=6,num2=4)
+
+
+#GET  http://localhost:4004/odata/v4/product/subtraction(num1=4,num2=2)
+
+
+GET http://localhost:4004/odata/v4/product/myfunction(category=2)
