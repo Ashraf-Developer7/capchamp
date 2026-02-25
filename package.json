@@ -11,15 +11,16 @@
     "@cap-js/sqlite": "^2",
     "@sap/cds-dk": "^9",
     "cds-plugin-ui5": "^0.13.0",
-    "rimraf": "^5.0.5",
-    "mbt": "^1.2.29"
+    "mbt": "^1.2.24",
+    "rimraf": "^6.1.3"
   },
   "scripts": {
     "start": "cds-serve",
     "watch-productshop": "cds watch --open ns.productshop/index.html?sap-ui-xx-viewCache=false --livereload false",
     "undeploy": "cf undeploy productshop --delete-services --delete-service-keys --delete-service-brokers",
     "build": "rimraf resources mta_archives && mbt build --mtar archive",
-    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
+    "watch-products": "cds watch --open ns.products/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
   "cds": {},
@@ -27,6 +28,8 @@
     "app/*"
   ],
   "sapux": [
-    "app/productshop"
+    "app/productshop",
+    "app/products",
+    "app/products"
   ]
 }

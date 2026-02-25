@@ -1,16 +1,34 @@
 namespace sap.cap.productshop;
 
-entity Product {
-    key ID       : Integer;
-        name     : String(50);
-        stock    : Integer;
-        price    : Integer;
-        category : String(100);
+using {
+    cuid,
+    managed
+} from '@sap/cds/common';
+
+aspect details {
+    profit : Integer;
+    rating : Integer;
+}
+
+entity Product : cuid, managed, details {
+    name         : String(50);
+    category     : String(100);
+    price        : Integer;
+    stock        : Integer;
+    suppiler     : Association to one Suppiler;
+    conversation : Composition of many {
+                       key ID        : UUID;
+                           timestamp : String;
+                           processor : String;
+                           message   : String;
+                   }
 }
 
 entity Suppiler {
-    key ID    : Integer;
-        name  : String(100);
-        city  : String(100);
-        phone : Integer;
+    key ID      : Integer;
+        name    : String(100);
+        city    : String(100);
+        phone   : Integer;
+        product : Association to many Product
+                      on product.suppiler = $self;
 }

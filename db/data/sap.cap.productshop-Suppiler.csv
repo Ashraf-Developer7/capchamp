@@ -1,11 +1,4 @@
 ID,name,city,phone
-2001,Amit Sharma,Bangalore,9876543210
-2002,Priya Reddy,Hyderabad,9123456780
-2003,Rahul Verma,Mumbai,9988776655
-2004,Sneha Iyer,Chennai,9012345678
-2005,Arjun Mehta,Pune,9090909090
-2006,Neha Singh,Delhi,9811122233
-2007,Vikram Rao,Kolkata,9700012345
-2008,Anjali Nair,Kochi,9898989898
-2009,Karthik Das,Ahmedabad,9765432101
-2010,Meera Joshi,Jaipur,9654321789
+1,Amit Sharma,Bangalore,9876543210
+2,Priya Reddy,Hyderabad,9123456780
+3,Rahul Verma,Mumbai,9988776655

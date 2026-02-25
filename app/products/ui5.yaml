@@ -2,7 +2,7 @@
 
 specVersion: "4.0"
 metadata:
-  name: ns.productshop
+  name: ns.products
 type: application
 server:
   customMiddleware:
@@ -25,4 +25,4 @@ server:
       afterMiddleware: fiori-tools-appreload
       configuration:
         flp:
-          theme: sap_horizon
+          theme: sap_fiori_3_dark

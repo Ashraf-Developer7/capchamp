@@ -1,0 +1,16 @@
+
+
+#GET http://localhost:4004/odata/v4/productshop/Product?$expand=conversation
+
+
+#GET http://localhost:4004/odata/v4/productshop/MyFunction(name='BMW')
+
+
+POST http://localhost:4004/odata/v4/productshop/orderProduct
+Content-Type: application/json
+
+{
+    "name": "BMW"
+    
+}
+

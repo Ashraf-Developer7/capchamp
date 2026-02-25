@@ -1,23 +1,24 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Tue Feb 24 2026 06:20:09 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Wed Feb 25 2026 11:32:48 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>SAP Fiori Application Generator|
 |**App Generator Version**<br>1.20.3|
 |**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>List Report Page V4|
 |**Service Type**<br>Local CAP|
 |**Service URL**<br>http://localhost:4004/odata/v4/productshop/|
-|**Module Name**<br>productshop|
-|**Application Title**<br>product Warehouse|
+|**Module Name**<br>products|
+|**Application Title**<br>Product Shop|
 |**Namespace**<br>ns|
-|**UI5 Theme**<br>sap_horizon|
+|**UI5 Theme**<br>sap_fiori_3_dark|
 |**UI5 Version**<br>1.145.0|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
 |**Main Entity**<br>Product|
+|**Navigation Entity**<br>None|
 
-## productshop
+## products
 
 An SAP Fiori application.
 
@@ -25,7 +26,7 @@ An SAP Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  To launch the generated app, start your CAP project:  and navigate to the following location in your browser:
 
-http://localhost:4004/productshop/webapp/index.html
+http://localhost:4004/ns.products/index.html
 
 #### Pre-requisites:
 

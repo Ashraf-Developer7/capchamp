@@ -38,9 +38,23 @@ modules:
       - nsproductshop.zip
       name: nsproductshop
       target-path: resources/
+    - artifacts:
+      - nsproducts.zip
+      name: nsproducts
+      target-path: resources/
 - name: nsproductshop
   type: html5
   path: app/productshop
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+- name: nsproducts
+  type: html5
+  path: app/products
   build-parameters:
     build-result: dist
     builder: custom

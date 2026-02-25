@@ -1,11 +1,4 @@
-Id,name,stock,price,category
-1001,Wireless Mouse,150,799,Electronics
-1002,Mechanical Keyboard,85,2499,Electronics
-1003,Office Chair,40,5999,Furniture
-1004,LED Monitor 24 inch,60,10499,Electronics
-1005,Water Bottle 1L,200,299,Kitchen
-1006,Notebook A4,500,49,Stationery
-1007,Running Shoes,75,3499,Footwear
-1008,Bluetooth Speaker,120,1899,Electronics
-1009,Backpack 30L,95,1299,Accessories
-1010,Coffee Maker,30,4599,Kitchen
+ID,name,category,price,stock,suppiler_ID,profit,rating
+0b97e597-6903-40f6-a6cf-48ab2f622e16,Pulsar,A,100000,15,1,20000,5
+fd284ceb-2803-4325-9324-985444da3635,Royal Enfield,A+,200000,20,2,50000,10
+c3795191-165f-4d20-ac75-24e83785b7c3,Xtreme,A,100000,10,3,10000,5

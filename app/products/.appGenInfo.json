@@ -1,15 +1,15 @@
 {
   "generationParameters": {
-    "generationDate": "Tue Feb 24 2026 06:20:09 GMT+0000 (Coordinated Universal Time)",
+    "generationDate": "Wed Feb 25 2026 11:32:48 GMT+0000 (Coordinated Universal Time)",
     "generatorPlatform": "SAP Business Application Studio",
     "serviceType": "Local CAP",
     "metadataFilename": "",
     "serviceUrl": "http://localhost:4004/odata/v4/productshop/",
-    "appName": "productshop",
-    "appTitle": "product Warehouse",
+    "appName": "products",
+    "appTitle": "Product Shop",
     "appDescription": "An SAP Fiori application.",
     "appNamespace": "ns",
-    "ui5Theme": "sap_horizon",
+    "ui5Theme": "sap_fiori_3_dark",
     "ui5Version": "1.145.0",
     "enableEslint": false,
     "enableTypeScript": false,
@@ -21,8 +21,12 @@
       {
         "type": "Main Entity",
         "value": "Product"
+      },
+      {
+        "type": "Navigation Entity",
+        "value": "None"
       }
     ],
-    "launchText": "To launch the generated app, start your CAP project:  and navigate to the following location in your browser:\n\nhttp://localhost:4004/productshop/webapp/index.html"
+    "launchText": "To launch the generated app, start your CAP project:  and navigate to the following location in your browser:\n\nhttp://localhost:4004/ns.products/index.html"
   }
 }
