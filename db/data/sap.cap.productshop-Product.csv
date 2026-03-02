@@ -1,4 +1,4 @@
-ID,name,category,price,stock,suppiler_ID,profit,rating
-0b97e597-6903-40f6-a6cf-48ab2f622e16,Pulsar,A,100000,15,1,20000,5
-fd284ceb-2803-4325-9324-985444da3635,Royal Enfield,A+,200000,20,2,50000,10
-c3795191-165f-4d20-ac75-24e83785b7c3,Xtreme,A,100000,10,3,10000,5
+ID,name,category,price,stock,criticality,suppiler_ID,profit,rating
+0b97e597-6903-40f6-a6cf-48ab2f622e16,Pulsar,C,100000,175,2,1,20000,4
+fd284ceb-2803-4325-9324-985444da3635,Royal Enfield,A,200000,800,2,2,50000,5
+c3795191-165f-4d20-ac75-24e83785b7c3,Xtreme,B,100000,255,1,3,10000,3

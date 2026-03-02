@@ -5,6 +5,7 @@
   "dependencies": {
     "@cap-js/hana": "^2",
     "@sap/cds": "^9",
+    "@sap/xssec": "^4",
     "express": "^4"
   },
   "devDependencies": {
@@ -23,7 +24,27 @@
     "watch-products": "cds watch --open ns.products/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
-  "cds": {},
+  "cds": {
+    "requires": {
+      "db":{
+        "kind":"sqlite",
+        "credential": {
+          "database": "db.sqlite"
+        }
+      },
+      "[development]": {
+        "auth": {
+          "users": {
+            "hkjbhjhg": {
+              "roles": [
+                "productmanager"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
   "workspaces": [
     "app/*"
   ],

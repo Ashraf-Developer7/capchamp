@@ -3,7 +3,7 @@
 #GET http://localhost:4004/odata/v4/productshop/Product?$expand=conversation
 
 
-#GET http://localhost:4004/odata/v4/productshop/MyFunction(name='BMW')
+GET http://localhost:4004/odata/v4/productshop/products
 
 
 POST http://localhost:4004/odata/v4/productshop/orderProduct

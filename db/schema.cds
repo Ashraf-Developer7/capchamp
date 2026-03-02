@@ -15,6 +15,7 @@ entity Product : cuid, managed, details {
     category     : String(100);
     price        : Integer;
     stock        : Integer;
+    criticality:Integer;
     suppiler     : Association to one Suppiler;
     conversation : Composition of many {
                        key ID        : UUID;
@@ -28,7 +29,7 @@ entity Suppiler {
     key ID      : Integer;
         name    : String(100);
         city    : String(100);
-        phone   : Integer;
+        phone   : String(15);
         product : Association to many Product
                       on product.suppiler = $self;
 }
